@@ -1,0 +1,333 @@
+/*
+Theme Name: Simply Strata
+
+Theme URI: https://simplystrata.templatedesign.ca/
+Author: Tammy Craik at JavaHat Solutions
+Author URI: https://javahat.com
+Description: Simply Strata is a Wordpress Theme designed specifically for Strata Corporations. It features several built in widgets and shortcodes to help display content with strata councils in mind.  The post types and taxonomy have been changed to directly reflect the needs of a strata council to share information with residents, tenants, property managers, etc. This theme also allows teh admin to easily customize the the colors and content of the theme through a detailed customizer and various sidebar locations. This these is fully customizable, responsive, and accessible. The theme can be used as simple blog or a complex website with multiple user login ability.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, flexible-header, threaded-comments, translation-ready
+Text Domain: simply-strata
+*/
+
+
+/* Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Main Navigation
+ *   6.1 - Links
+ *   6.2 - Additional Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Widgets
+ * 11.0 - Content
+ *   11.1 - Status Bar
+ *   11.2 - Header
+ *   11.3 - Posts and pages
+ *   11.4 - Post Formats
+ *   11.5 - Comments
+ *   11.6 - Sidebar
+ *   11.7 - Footer
+ * 12.0 - Media
+ *   12.1 - Captions
+ *   12.2 - Galleries
+ * 13.0 - Multisite
+ * 14.0 - Media Queries
+ *   14.1 - >= 710px
+ *   14.2 - >= 783px
+ *   14.3 - >= 910px
+ *   14.4 - >= 985px
+ *   14.5 - >= 1200px
+ * 15.0 - Print
+ */
+ 
+  /* @group 1.0 Normalize */
+  
+/**
+	* Normalizing styles have been helped along thanks to the fine work of
+	* Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+.html 
+	{
+	font: 10pt/1.5 "Open Sans";
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	}
+
+body 
+	{
+	margin: 0;
+	padding: 0 0 20px;
+	width: 100%;
+	}
+	
+main,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section,
+summary 
+	{
+	display: block;
+	}
+
+b,
+strong 
+	{
+	font-weight: 700;
+	}
+
+small 
+	{
+	font-size: 80%;
+	}
+
+sub,
+sup 
+	{
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+	}
+
+sup 
+	{
+	top: -0.5em;
+	}
+
+sub 
+	{
+	bottom: -0.25em;
+	}
+
+img 
+	{
+	border: 0;
+	}
+
+/* @end */  
+ 
+/* @group 2.0 Genericons */
+  
+ /* @end */
+ 
+/* @group 3.0 Typography */
+
+body,
+button,
+input,
+select,
+textarea 
+	{
+	color: #1a1a1a;
+	line-height: 1.5;
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 
+	{
+	font-weight: 700;
+	margin: 10px 0;
+	text-rendering: optimizeLegibility;}
+	
+.site-content table.council th
+  {
+  color: #fff;
+  }
+
+dfn,
+cite,
+em,
+i 
+	{
+	font-style: italic;
+	}
+
+blockquote 
+	{
+	margin: 0 0 0 2%;
+	overflow: hidden;
+	padding: 0 0 0 3em;
+}
+
+blockquote,
+q 
+	{
+	quotes: none;
+	}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after 
+	{
+	content: "";
+	}
+
+blockquote p 
+	{
+	margin-bottom: 1.4736842105em;
+	}
+
+big 
+	{
+	font-size: 125%;
+	}
+	
+.center {
+	text-align: c;
+}
+
+/* @end */ 
+ 
+/* @group 4.0 Elements */
+/* @end */
+
+/* @group 5.0 Forms */
+
+  /* @group Mailchimp */
+  /* @end */
+
+  /* @group Ninja Forms */
+  /* @end */
+
+/* @end */
+
+/* @group 6.0 Mobile Navigation */
+/* @end */
+
+/* @group 7.0 Accessibility */
+/* @end */
+
+/* @group 8.0 Alignments */
+/* @end */
+
+/* @group 10.0 Widgets */
+/* @end */
+
+/* @group 11.0 Content */
+
+section
+	{
+	margin: 2% 1% 1%;
+}
+
+.new
+	{
+	background-color: #fbf905;
+	text-transform: uppercase;
+	font-size: 0.5em;
+	}
+	
+p.note
+	{
+	margin: 5px 20px;
+	padding: 0;
+	font: 0.7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+/* Admin Feature List Tables */
+table.simply-feature-list
+	{
+	width: 95%;
+	margin: 5px auto;
+	border: 1px solid #333;
+	}
+	
+table.simply-feature-list tr th
+	{
+	padding: 5px 10px;
+	text-align: left; 
+	background-color: #333; 
+	color: #fff;
+	font-size: 1em;
+	}
+	
+table.simply-feature-list tr td 
+	{ 
+	vertical-align: top;
+	padding: 5px; 
+	}
+
+table.simply-feature-list tr:nth-child(odd) {background: #fff;}
+table.simply-feature-list tr:nth-child(even) {background: #efefef}
+
+td.simply-attribute {  }
+	
+td.simply-example { min-width: 320px; }
+	 
+ /* @end */
+
+/* @group 11.1 Status Bar */
+ 
+
+ 
+ /* @end */
+
+
+ /* @group 11.2 Header */
+ /* @end */
+ 
+ /* @group 11.3 Posts and pages */
+ /* @end */
+ 
+ /* @group 11.6 Sidebar */ 
+ /* @end */
+ 
+ /* @group 11.7 - Footer */
+ /* @end */
+ 
+ /* @group 12.1 - Captions */
+ /* @end */
+
+ /* @group 12.2 - Galleries */
+ /* @end */
+ 
+ /* @group 14.0 Media Queries */
+ 
+ /* Portrait */
+ @media only screen 
+   and (max-device-width: 600px)
+   and (orientation: portrait) 
+  {
+  
+  html
+  	{
+  	font-size: 0.7em;
+  	}
+  	
+  th
+  	{
+  	vertical-align: top;
+  	}
+  
+ 	}
+ /* @end */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
